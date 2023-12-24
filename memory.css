@@ -1,0 +1,173 @@
+/* Group Number : 3
+Group Members : 
+1. Naman Sharma
+2. Ilaben Jayentbhai Patel
+3. Parth Kumar Bhikadiya  
+4. Muhammad Rizwan Aslam Rana*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Brush Script MT", cursive; */
+  background-image: linear-gradient(to right,#ffafbd,#ffc3a0);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 100%;
+  margin: 20px auto 0;
+  padding: 0 2em 1em;
+}
+.card-effect {
+  transition: opacity 4000ms;
+  will-change: opacity;
+}
+
+.card-effect.faded-out {
+  opacity: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 150%;
+  margin-bottom: 0.5em;
+}
+label {
+  float: left;
+  width: 8em;
+}
+input,
+select {
+  width: 10em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+input[type="checkbox"] {
+  width: 2em;
+}
+header p {
+  margin: 0 2em 1em 0;
+}
+#new_game,
+#player,
+#high_score,
+#correct {
+  float: left;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+#cards img {
+  height: 100px;
+  width: 80px;
+  padding: 3px;
+  margin: 0 2px 3px;
+  border-radius: 10px;
+  border: 3px solid #eb7100;
+}
+.clear {
+  clear: both;
+}
+
+.title-head {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.tb1 {
+  overflow: auto;
+  max-height: 500px;
+}
+
+.title-head h1 {
+  font-size: 42px;
+  font-weight: bold;
+  text-shadow: 1px 1px #eb7100;
+  color: rgb(161, 37, 85);
+  /* color: rgb(4, 4, 128); */
+  text-decoration: underline;
+}
+
+.new-game-wrap {
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-game-wrap p {
+  /* background-color: #ececec; */
+  padding: 10px;
+  border-radius: 10px;
+  /* border: 2px solid #000; */
+  border: 2px solid #eb7100;
+  text-shadow: 1px 1px #eb7100;
+}
+.new-game-wrap p a {
+  font-size: 22px;
+  color: rgb(161, 37, 85) !important;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul.ui-tabs-nav {
+  padding: 5px !important;
+}
+
+li.ui-state-default {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 20px !important;
+  border: 1px solid #eb7100 !important;
+  border-radius: 3px !important;
+}
+
+.ui-tabs.ui-corner-all li.ui-state-active {
+  background: rgb(161, 37, 85) !important;
+  border: 1px solid #eb7100 !important;
+  border-radius: 3px !important;
+}
+
+.ui-widget.ui-widget-content {
+  border: 3px solid #eb7100 !important;
+  max-width: 750px;
+}
+
+.ui-tabs.ui-corner-all li.ui-state-active a {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.success-wrap {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #000;
+}
+
+#save_settings {
+  display: inline-block;
+  padding: 7px;
+  width: auto;
+  background-color: #ececec;
+  border-radius: 10px;
+  border: 2px solid #eb7100;
+  font-size: 18px;
+  color: rgb(161, 37, 85) !important;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+h3 {
+  color: rgb(161, 37, 85);
+  font-size: 20px;
+}
